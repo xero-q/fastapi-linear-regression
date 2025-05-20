@@ -27,5 +27,5 @@ ENV PATH="/app/.venv/bin:$PATH"
 EXPOSE 8000
 
 # Run FastAPI app using uv
-CMD ["uv","run","fastapi", "dev", "--host", "0.0.0.0"]
+CMD ["uv","run","fastapi", "run", "--host", "0.0.0.0"]
 
